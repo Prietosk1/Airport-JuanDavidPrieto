@@ -9,7 +9,7 @@ package airport;
  * @author edangulo
  */
 public class Location {
-    
+
     private final String airportId;
     private String airportName;
     private String airportCity;
@@ -17,7 +17,8 @@ public class Location {
     private double airportLatitude;
     private double airportLongitude;
 
-    public Location(String airportId, String airportName, String airportCity, String airportCountry, double airportLatitude, double airportLongitude) {
+    public Location(String airportId, String airportName, String airportCity, String airportCountry,
+            double airportLatitude, double airportLongitude) {
         this.airportId = airportId;
         this.airportName = airportName;
         this.airportCity = airportCity;
@@ -49,5 +50,5 @@ public class Location {
     public double getAirportLongitude() {
         return airportLongitude;
     }
-    
+
 }
